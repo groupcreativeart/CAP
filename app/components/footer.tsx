@@ -62,11 +62,17 @@ export default function Footer() {
 
             </Link>
 
-            <p className="cap-footer__about">
-              Capturing genuine moments and turning them into
-              timeless photographs you can cherish for years
-              to come.
-            </p>
+            <div className="cap-footer__about-wrap">
+              <p className="cap-footer__about">
+                Capturing genuine moments and turning them into
+                timeless photographs you can cherish for years
+                to come.
+              </p>
+
+              <p className="cap-footer__about">
+                <span style={{ fontWeight: "bold" }}>Location:</span> Delhi, India
+              </p>
+            </div>
 
           </div>
 
@@ -113,9 +119,11 @@ export default function Footer() {
               groupcreativeart@gmail.com
             </a>
 
-            <a href="tel:+919654115000">
-              +91 96541 15000
-            </a>
+            <div className="cap-footer__phones">
+              <a href="tel:+919654114000">+91 96541 14000</a><br></br>
+              <a href="tel:+919654115000">+91 96541 15000</a><br></br>
+              <a href="tel:+919654117000">+91 96541 17000</a>
+            </div>
 
             <p className="cap-footer__contact-note">
               Have a shoot in mind? Let’s create something
@@ -273,14 +281,20 @@ export default function Footer() {
         }
 
         /* About */
-        .cap-footer__about {
-          max-width: 340px;
-          margin: 22px 0 26px;
-          color: rgba(220, 225, 243, 0.68);
-          font-size: 0.98rem;
-          line-height: 1.85;
+        .cap-footer__about-wrap {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
         }
 
+        .cap-footer__about {
+          max-width: 340px;
+          margin: 10px 0;
+          color: rgba(220, 225, 243, 0.68);
+          font-size: 0.98rem;
+          line-height: 1.35;
+        }
+          
         /* CTA */
         .cap-footer__cta {
           display: inline-flex;
