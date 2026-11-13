@@ -35,18 +35,6 @@ interface WorkSectionProps {
 
 const WEDDING_PHOTOS: Photo[] = [
   {
-    title: 'Elegant Indian Wedding Photography',
-    category: 'Wedding',
-    tone: '#c9b8a6',
-    src: 'https://res.cloudinary.com/fwadajoo/image/upload/v1794257467/gg.jpg',
-  },
-  {
-    title: 'Beautiful Bridal Portrait Photography',
-    category: 'Wedding',
-    tone: '#c9b8a6',
-    src: 'https://res.cloudinary.com/fwadajoo/image/upload/v1794257466/pur.jpg',
-  },
-  {
     title: 'Traditional Wedding Ceremony Moments',
     category: 'Wedding',
     tone: '#c9b8a6',

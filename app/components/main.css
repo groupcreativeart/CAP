@@ -1,13 +1,14 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Manrope:wght@400;500;600&display=swap");
 
 :root {
-  --paper: #f5f6f4;
-  --surface: #ffffff;
-  --ink: #15191c;
-  --muted: #5d6870;
-  --line: #dde2e5;
-  --accent: #3347ff;
-  --accent-ink: #ffffff;
+  --paper: #000000;
+  --surface: #111111;
+  --ink: #ffffff;
+  --muted: #a0a0a0;
+  --line: #292929;
+  --accent: #7585ff;
+  --accent-ink: #000000;
 
   --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
   --body: "Manrope", "Helvetica Neue", Arial, sans-serif;
@@ -16,35 +17,23 @@
   --pad: clamp(1.25rem, 5vw, 4rem);
   --nav-h: 4.5rem;
 
-  /* Stacking order (one place to control it) */
+  /* Stacking order */
   --z-aurora: 0;
   --z-hero: 1;
   --z-section: 2;
   --z-nav: 100;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #101316;
-    --surface: #181c20;
-    --ink: #eef1f3;
-    --muted: #9aa5ad;
-    --line: #2a3036;
-    --accent: #7585ff;
-    --accent-ink: #0b0e22;
-  }
-}
-
-/* Hero and nav are ALWAYS dark, in both light and dark mode */
+/* All sections use dark theme */
 .top-section,
 .nav {
-  --paper: #101316;
-  --surface: #181c20;
-  --ink: #eef1f3;
-  --muted: #a6b0b8;
-  --line: #2f363c;
+  --paper: #000000;
+  --surface: #111111;
+  --ink: #ffffff;
+  --muted: #a0a0a0;
+  --line: #292929;
   --accent: #7585ff;
-  --accent-ink: #0b0e22;
+  --accent-ink: #000000;
 }
 
 *,
@@ -56,12 +45,14 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--nav-h);
+  background: #000000;
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+
   * {
     animation: none !important;
     transition: none !important;
@@ -71,7 +62,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--paper);
+  background: #000000;
   color: var(--ink);
   font-family: var(--body);
   line-height: 1.6;
@@ -82,6 +73,7 @@ body {
   position: relative;
   overflow-x: hidden;
   max-width: 100vw;
+  background: #000000;
 }
 
 a {
@@ -120,6 +112,7 @@ h3 {
 .muted {
   color: var(--muted);
 }
+
 
 /* ---------- Top section (aurora + hero) ---------- */
 .top-section {

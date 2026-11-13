@@ -29,11 +29,11 @@ const HERO_PHOTOS: HeroPhoto[] = [
   },
   {
     tone: "#d6a77a",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794254410/1P6A1361.jpg",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794260381/0O0A1500.jpg",
   },
   {
     tone: "#a9a2b8",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794255037/DSC01597.jpg",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794260382/0O0A1483.jpg",
   },
 ];
 
@@ -192,7 +192,6 @@ export default function Main() {
 
   return (
     <div className="top-section" id="top">
-      <Aurora colorStops={[]} />
       <PopupForm
         isOpen={popupOpen}
         onClose={closeBookingForm}
