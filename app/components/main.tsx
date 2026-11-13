@@ -43,55 +43,63 @@ const HERO_PHOTOS: HeroPhoto[] = [
 
 const CLIENTS_TOP = [
   {
-    name: "Viaan International School",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228177/viaan_internation_school.png",
+    name: "St. Thomas School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575971/St_Thomas_School.png",
   },
   {
-    name: "Ganga International",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228177/ganga_international.png",
+    name: "St. Xavier School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575971/St_Xavier_school_Panipat.png",
   },
   {
-    name: "G R Global Dadri",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228176/G_R_global_dadri.png",
+    name: "St. Anthony Girls School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575970/St_Anthony_Girls_School_Delhi.png",
   },
   {
     name: "Shah International School",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228176/shah_international_school_pachim_vihar_delhi.png",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575970/Shah_International_School_Delhi.png",
   },
   {
-    name: "DPS School Gajrola",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228176/dps_school_gajrola_up.png",
+    name: "Fatima Convent School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/Fatima_Convent_School_GZb.png",
   },
   {
-    name: "Sam International Dwarka",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228176/sam_international_dwarka_delhi.png",
+    name: "Sam International School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/Sam_International_School_Dwarka_Delhi.jpg",
+  },
+  {
+    name: "Modern School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/Modern_School.png",
   },
 ];
 
 const CLIENTS_BOTTOM = [
   {
-    name: "Client Seven",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228175/Gemini_Generated_Image_qqxvokqqxvokqqxv.png",
+    name: "Ganga International School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/Ganga_International.png",
+  },
+  {
+    name: "DAV Collage Managment",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/DAV_Collage_Managment.png",
+  },
+  {
+    name: "The Infinty School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/The_Infinty_School_Grater_Noida.png",
   },
   {
     name: "DPS Sirsa",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228175/Dps_Sirsa.png",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575969/DPS_Sirsa.png",
   },
   {
-    name: "DAV College Management",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228175/DAV_collage_managment.png",
+    name: "BVM School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575968/BVM_school_najafgarh.png",
   },
   {
-    name: "DPS Bijnor",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228175/DDps_bijnor.png",
+    name: "Swarnprastha School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575968/Swarnprastha_School_Sonipat.jpg",
   },
   {
-    name: "Fatima Convent School",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228175/fatima_convent_school_GZb.png",
-  },
-  {
-    name: "BVM School Najafgarh",
-    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794228174/bvm_school_najafgarh.png",
+    name: "Viaan Internation School",
+    src: "https://res.cloudinary.com/fwadajoo/image/upload/v1794575968/Viaan_Internation_School.png",
   },
 ];
 
